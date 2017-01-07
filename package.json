@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:ben-z/alexa-therapist-server.git",
   "author": "Ben Zhang <benzhangniu@gmail.com>",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "alexa-app-server": "^2.3.1"
+  }
 }
