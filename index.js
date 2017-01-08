@@ -13,6 +13,6 @@ AlexaAppServer.start({
   },
   // Add a dummy attribute to the response
   postRequest: function(json,req,res) {
-    json.dummy = "text";
+    console.log("postRequest fired");
   }
 });
